@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+./angular-task/.angular
+./angular-task/node_modules
+angular-task/.angular
+angular-task/node_modules
+./backend
+backend
