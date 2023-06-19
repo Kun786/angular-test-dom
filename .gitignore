@@ -134,3 +134,5 @@ angular-task/.angular
 angular-task/node_modules
 ./backend
 backend
+./backend/environment-dev.env
+password-droplet-do
