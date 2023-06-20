@@ -1,4 +1,4 @@
-.wrapper{
+/* .wrapper{
     background-color: #f3f5f8;
 
 }
@@ -11,8 +11,8 @@
 }
 
 .scrollbar {
-    max-height: 200px; /* Set the desired maximum height */
-    overflow-y: auto; /* Add scrollbar if content exceeds maximum height */
+    max-height: 200px; 
+    overflow-y: auto; 
   }
 
 .img {
@@ -50,7 +50,6 @@
 }
 .background{
     background-color: white;
-    /* padding: 3%; */
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 10px;
@@ -60,11 +59,10 @@
 
 }
 .WritingButton{
-/* margin-left: auto; */
-}
+} */
 
 /* media-Quries */
-@media (max-width: 1400px){
+/* @media (max-width: 1400px){
     .sidebar {
         width: 95%;
     }
@@ -115,9 +113,116 @@
     .sidebar {
         width: 440%;
     }
-}
-/* @media (max-width: 576px){
-    .sidebar {
-        width: 200%;
-    }
 } */
+
+/* updated-code */
+.wrapper {
+    background: #f3f5f8;
+}
+
+.sideNav {
+    width: 100%;
+    height: 90vh;
+    background: rgb(255, 255, 255);
+}
+
+.navIcon {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 80px;
+    width: 100%;
+}
+
+.icon {
+    margin: 24px auto 0px auto;
+
+}
+
+.icon:hover {
+    /* background-color: rgb(160, 193, 241); */
+    color: blue;
+}
+
+.mainWrapper {
+    height: 90vh;
+}
+
+.card {
+    margin-top: 15%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+.main-content {
+    background: rgb(219, 218, 218);
+    padding: 2% 10px 2% 10px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 78px;
+    height: 75px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(rgb(0, 64, 255) 75%, rgb(154 162 239) 0);
+}
+
+.bar::before {
+    content: "95%";
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 78px;
+    height: 75px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(rgb(20 187 79) 75%, rgb(184, 239, 154) 0);
+}
+
+.green::before {
+    content: "95%";
+}
+
+.yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 78px;
+    height: 75px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(rgb(255, 204, 0) 75%, rgb(239, 213, 154) 0);
+}
+
+.yellow::before {
+    content: "95%";
+}
+
+
+/* Media-Quries */
+@media(max-width:1400px) {}
+
+@media(max-width:1199px) {}
+
+@media(max-width:991px) {}
+
+@media(max-width:767px) {}
+
+@media(max-width:576px) {}
+
+/* Media-Quries */
+/* updated-code */
